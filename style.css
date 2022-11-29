@@ -46,7 +46,7 @@ ul{
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
-    border:1px solid red;
+
 }
 
 .rightSide-menubar ul{
@@ -168,11 +168,69 @@ ul{
     margin-top: 0.8rem;
 }
 
+.section-3{
+    grid-area: section_3;
+    margin-top: 4rem;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.card{
+    object-fit: contain;
+    display: flex;
+    /* justify-content: space-between; */
+    width: 30%;
+}
+
+.card  img{
+    width: 28%;
+}
+
+.card .card-content{
+   margin-left: 1.5rem;
+}
+
+.card-content h2{
+    color:hsl(233, 8%, 79%);
+    font-weight: 900;
+}
+
+.card-content h4 a{
+    line-height: 3;
+    font-weight: 900;
+    color: black;
+    font-size: 1rem;
+}
+
+.card-content p{
+    color:hsl(235, 14%, 54%);
+    font-size: 15px;
+}
 
 
-@media screen and (min-width:1025px) and (max-width:1200px){}
 
-@media screen and (min-width:769px) and (max-width:1024p){}
+
+
+@media screen and (min-width:1025px) and (max-width:1200px){
+    .card{
+        width: 40%;
+        margin-bottom: 3rem;
+    }
+
+}
+
+@media screen and (min-width:769px) and (max-width:1024px){
+    .card{
+        width: 40%;
+        margin-bottom: 3rem;
+    }
+
+    .card-content h4 a{
+        line-height: 1.5;
+    }
+}
 
 @media screen and (min-width:481px) and (max-width:768px){
 
@@ -209,6 +267,24 @@ ul{
 
     .rightSide-menubar{
         display: none;
+    }
+
+    .card{
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .card h2{
+        font-size: 3rem;
+    }
+
+    .card h4 a{
+        font-size: 1.8rem;
+        line-height: 1.8;
+    }
+
+    .card p{
+        font-size: 1.4rem;
     }
 
 }
@@ -250,6 +326,24 @@ ul{
     .rightSide-menubar{
         display: none;
     }
+
+    .card{
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .card h2{
+        font-size: 2.2rem;
+    }
+
+    .card h4 a{
+        font-size: 1.4rem;
+        line-height: 1.8;
+    }
+
+    .card p{
+        font-size: 1rem;
+    }
 }
 
 @media screen and (max-width:375px) {
@@ -287,6 +381,24 @@ ul{
 
     .rightSide-menubar{
         display: none;
+    }
+
+    .card{
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .card h4{
+        /* line-height: 2.2; */
+        margin: 0.60rem 0rem;
+    }
+
+    .card h4 a{
+        line-height: 0;
+    }
+
+    .card p{
+        font-size: 0.9rem;
     }
 }
 
