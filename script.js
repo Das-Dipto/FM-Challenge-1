@@ -15,13 +15,13 @@ icon2.addEventListener('click', ()=>{
     menu.style.opacity = '';
 })
 
-// let x = window.matchMedia("(min-width:769px)")
-// x.addEventListener('change',()=>{
-//     if (x.matches){
-//         menu.style.visibility = 'hidden';
-//         menu.style.opacity = '';
-//     }
-// })
+let x = window.matchMedia("(min-width:769px)")
+x.addEventListener('change',()=>{
+    if (x.matches){
+        menu.style.visibility = 'hidden';
+        menu.style.opacity = '';
+    }
+})
 
 
 
