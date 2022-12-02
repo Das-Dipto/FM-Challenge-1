@@ -431,6 +431,10 @@ ul{
         margin-right: 0;
     }
 
+    .top-hero-image{
+        background-image: url('image/image-web-3-mobile.jpg');
+    }
+
     .rightSide-content{
         margin-top: 5rem;
         width: 100%;
