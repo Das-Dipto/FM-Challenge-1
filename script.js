@@ -4,6 +4,7 @@ let menu = document.querySelector('.menu');
 let rightSide_menubar = document.querySelector('.rightSide-menubar');
 let list_menubar = document.querySelector('.list-menubar');
 
+
 icon1.addEventListener('click', ()=>{
     list_menubar.innerHTML = rightSide_menubar.innerHTML;
     menu.style.visibility = 'visible';
