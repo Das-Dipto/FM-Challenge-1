@@ -150,8 +150,8 @@ ul{
     position: absolute;
     content: '';
     width: 100%;
-    height: 0.50px;
-    background-color: red;
+    height: 1px;
+    background-color: hsla(235, 14%, 54%, 0.50);
     top:-30%;
 }
 
@@ -245,7 +245,6 @@ ul{
     top:0;
     opacity: 0;
     transition: 0.65s all ease-in-out;
-  
 }
 
 .menu .black{
